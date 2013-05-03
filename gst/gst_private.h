@@ -94,6 +94,7 @@ void _priv_gst_quarks_initialize (void);
  * headers, so at least the symbols need to continue to be available unless
  * we want enterprise edition packagers dancing on our heads) */
 void  _gst_buffer_initialize (void);
+void  _gst_mfw_buffer_initialize (void);
 void  _gst_buffer_list_initialize (void);
 void  _gst_event_initialize (void);
 void  _gst_format_initialize (void);
@@ -158,6 +159,7 @@ GST_EXPORT GstDebugCategory *GST_CAT_PARENTAGE;
 GST_EXPORT GstDebugCategory *GST_CAT_STATES;
 GST_EXPORT GstDebugCategory *GST_CAT_SCHEDULING;
 GST_EXPORT GstDebugCategory *GST_CAT_BUFFER;
+GST_EXPORT GstDebugCategory *GST_CAT_MFWBUFFER;
 GST_EXPORT GstDebugCategory *GST_CAT_BUFFER_LIST;
 GST_EXPORT GstDebugCategory *GST_CAT_BUS;
 GST_EXPORT GstDebugCategory *GST_CAT_CAPS;
@@ -198,6 +200,7 @@ extern GstDebugCategory *_priv_GST_CAT_POLL;
 #define GST_CAT_SCHEDULING       NULL
 #define GST_CAT_DATAFLOW         NULL
 #define GST_CAT_BUFFER           NULL
+#define GST_CAT_MFWBUFFER        NULL
 #define GST_CAT_BUFFER_LIST      NULL
 #define GST_CAT_BUS              NULL
 #define GST_CAT_CAPS             NULL

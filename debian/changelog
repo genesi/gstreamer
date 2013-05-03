@@ -1,3 +1,9 @@
+gstreamer0.10 (0.10.30-1genesi1) maverick; urgency=low
+
+  * Add mfwbuffer patches
+
+ -- Ahmed Ammar <aammar@genesi-usa.com>  Wed, 1 May 2013 21:57:34 +0200
+
 gstreamer0.10 (0.10.30-1build2) maverick; urgency=low
 
   * Rebuild with the current gobject introspection

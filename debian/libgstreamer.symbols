@@ -401,6 +401,7 @@ libgstreamer-0.10.so.0 libgstreamer0.10-0 #MINVER#
  GST_CAT_EVENT@Base 0.10.0
  GST_CAT_GST_INIT@Base 0.10.0
  GST_CAT_MESSAGE@Base 0.10.0
+ GST_CAT_MFWBUFFER@Base 0.10.30-1genesi1
  GST_CAT_NEGOTIATION@Base 0.10.0
  GST_CAT_PADS@Base 0.10.0
  GST_CAT_PARAMS@Base 0.10.0
@@ -440,6 +441,7 @@ libgstreamer-0.10.so.0 libgstreamer0.10-0 #MINVER#
  _gst_event_initialize@Base 0.10.0
  _gst_format_initialize@Base 0.10.0
  _gst_message_initialize@Base 0.10.0
+ _gst_mfw_buffer_initialize@Base 0.10.30-1genesi1
  _gst_parse_launch@Base 0.10.0
  _gst_parse_yy_create_buffer@Base 0.10.0
  _gst_parse_yy_delete_buffer@Base 0.10.0
@@ -978,6 +980,12 @@ libgstreamer-0.10.so.0 libgstreamer0.10-0 #MINVER#
  gst_message_type_get_name@Base 0.10.0
  gst_message_type_get_type@Base 0.10.0
  gst_message_type_to_quark@Base 0.10.0
+ gst_mfw_buffer_flag_get_type@Base 0.10.30-1genesi1
+ gst_mfw_buffer_get_type@Base 0.10.30-1genesi1
+ gst_mfw_buffer_make_readonly@Base 0.10.30-1genesi1
+ gst_mfw_buffer_new@Base 0.10.30-1genesi1
+ gst_mfw_buffer_new_and_alloc@Base 0.10.30-1genesi1
+ gst_mfw_buffer_replace_sub_buffer@Base 0.10.30-1genesi1
  gst_mini_object_copy@Base 0.10.0
  gst_mini_object_flags_get_type@Base 0.10.0
  gst_mini_object_get_type@Base 0.10.0
