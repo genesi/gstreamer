@@ -724,6 +724,9 @@ libgstreamer-0.10.so.0 libgstreamer0.10-0 #MINVER#
  gst_element_factory_get_uri_protocols@Base 0.10.0
  gst_element_factory_get_uri_type@Base 0.10.0
  gst_element_factory_has_interface@Base 0.10.14
+ gst_element_factory_list_filter@Base 0.10.30-1genesi2
+ gst_element_factory_list_get_elements@Base 0.10.30-1genesi2
+ gst_element_factory_list_is_type@Base 0.10.30-1genesi2
  gst_element_factory_make@Base 0.10.0
  gst_element_flags_get_type@Base 0.10.0
  gst_element_found_tags@Base 0.10.0
@@ -1165,8 +1168,10 @@ libgstreamer-0.10.so.0 libgstreamer0.10-0 #MINVER#
  gst_plugin_feature_get_rank@Base 0.10.0
  gst_plugin_feature_get_type@Base 0.10.0
  gst_plugin_feature_list_copy@Base 0.10.26
+ gst_plugin_feature_list_debug@Base 0.10.30-1genesi2
  gst_plugin_feature_list_free@Base 0.10.0
  gst_plugin_feature_load@Base 0.10.0
+ gst_plugin_feature_rank_compare_func@Base 0.10.30-1genesi2
  gst_plugin_feature_set_name@Base 0.10.0
  gst_plugin_feature_set_rank@Base 0.10.0
  gst_plugin_feature_type_name_filter@Base 0.10.0

@@ -1,3 +1,11 @@
+gstreamer0.10 (0.10.30-1genesi2) maverick; urgency=low
+
+  * Add listing feature patches (for firefox)
+     - http://cgit.freedesktop.org/gstreamer/gstreamer/commit/?id=17f92542646a6a08b87093402e688f348f651f8d
+     - http://cgit.freedesktop.org/gstreamer/gstreamer/commit/?id=0fe3a9bc22a0a7a7239b531a7eee4b4e6bcf53c6
+
+ -- Ahmed Ammar <aammar@genesi-usa.com>  Thu, 9 May 2013 12:57:34 +0200
+
 gstreamer0.10 (0.10.30-1genesi1) maverick; urgency=low
 
   * Add mfwbuffer patches
